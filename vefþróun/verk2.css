@@ -1,0 +1,151 @@
+
+/*
+.box1{margin: 40px;
+border:3px solid green;
+}
+
+div{margin: 40px;
+    border:6px solid red;
+    padding:20px
+}
+
+
+
+.box2{margin: 40px;
+border:3px solid green;
+color:red;
+
+
+}
+.box3{margin: 40px;
+border:3px dashed blue;
+color:blue;}
+
+.box4{margin:1em;
+border:3px dashed green;
+padding:1em
+}
+.box5{ inline: size 3px;
+    margin: 1em;
+    padding: 1em;
+    border:3px dashed red;
+    display: inline-block;
+
+     
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+	 margin: 0 auto;
+	 font-family: sans-serif;
+}
+
+footer p {
+  text-align: center;
+}
+*/
+.gulur {
+	background-color: yellow; 
+}
+.raudur {
+	background-color: red; 
+}
+.graenn {
+	background-color: lime;
+}
+.blar {
+	background-color: cyan; 
+}
+.box {
+	font-size: 1.2em;
+	height: 5em;
+}
+
+.box1{margin: 40px;
+    border:3px solid green;
+    }
+    
+    div{margin: 40px;
+        border:6px solid red;
+        padding:20px
+    }
+    
+    
+    
+    .box2{margin: 40px;
+    border:3px solid green;
+    color:red;
+    
+    
+    }
+    .box3{margin: 40px;
+    border:3px dashed blue;
+    color:blue;}
+    
+    .box4{margin:1em;
+    border:3px dashed green;
+    padding:1em
+    }
+    .box5{ inline: size 3px;
+        margin: 1em;
+        padding: 1em;
+        border:3px dashed red;
+        display: inline-block;
+    
+         
+    }
+    
+    /*****************************************************************/
+    .box{
+        float: left;
+        width: 50%;
+    }
+    .bigL{
+        float:left;
+        padding: 5px;
+        font-size: 2em;
+    }
+    .imgR{
+        float:right;
+        padding: 5px;
+    }
+    /*****************************************************************/
+    /*
+      ========================================
+      Box-sizing
+      ========================================
+    */
+    *{
+        box-sizing: border-box;
+    }
+    
+    /*
+      ========================================
+      Clearfix
+      ========================================
+    */
+    .group:before,
+    .group:after {
+      content: "";
+      display: table;
+    }
+    .group:after {
+      clear: both;
+    }
+    .group {
+      clear: both;
+      *zoom: 1;
+    }
+
+    .kassi{border-width: 3px;
+    border-color: purple;}
+
+    .athugid{ text-align: center;
+    
+
+
+
+    }
