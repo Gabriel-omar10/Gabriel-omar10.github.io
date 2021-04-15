@@ -1,0 +1,84 @@
+/*mobile*/
+ @media screen and (min-width: 10px){
+.gridwrapper{display: grid;
+    grid-template-areas: 
+    "h h h h h h"
+    "m m m m m m"
+    "ha ha ha ha ha ha "
+    "v v v v v v "
+    "f f f f f f"
+    "n n n n n n";}
+    body{margin:0px}
+}
+/*tablet*/
+
+@media screen and (min-width: 600px){
+    .gridwrapper{display: grid;
+    grid-template-areas:
+    "n n n n n n" 
+    "h h h h h h"
+    "ha ha m m m m"
+    "ha ha m m m m"
+    "v v m m m m"
+    "v v m m m m"
+    "f f f f f f";}
+    .myndir{display: grid;
+    grid-template-columns: 1fr 1fr;}
+}
+/*desktop*/
+
+@media screen and (min-width: 900px){
+    .gridwrapper{display: grid;
+        grid-template-areas: 
+        "n n n n n"
+        "h h h h h"
+        "v m m m ha"
+        "v m m m ha"
+        "f f f f f";}
+    .myndir{display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;}
+    img{width: 50%;}
+}
+
+
+.head{grid-area: h; 
+    text-align: center;
+    border: solid 1px;
+    background-color:palevioletred;}
+
+.main{grid-area: m;
+    border: solid 1px;
+    text-align: center;
+    background-color: lightblue;}
+
+.foot{grid-area: f;
+    border: solid 1px;
+    text-align: center;
+    background-color: green;}
+
+.vinstri{grid-area: v;
+    border: solid 1px;
+    text-align: center;
+    background-color: yellow;}
+
+.haegri{grid-area: ha;
+    border: solid 1px;
+    text-align: center;
+    background-color: yellow;}
+
+.nav{grid-area: n; 
+    background-color: black;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding:16px;
+    border: solid lime 1px}
+
+figure{margin: 0px;
+    padding: 0px;}
+
+
+    img{
+        max-width: 100%;
+        height: auto;
+        }
