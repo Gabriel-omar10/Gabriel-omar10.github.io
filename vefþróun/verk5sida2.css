@@ -1,0 +1,52 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{background: linear-gradient(lightblue,darkblue);
+    margin: 0px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.dalkar2{display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    margin: 0 auto;}
+
+
+
+.pila{
+    position:fixed;
+    right: 50px;
+    bottom:50px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 1px solid blue;
+    background: lightblue;
+    text-align: center;
+    line-height: 50px;
+    color:yellow;
+    font-size: 25px;
+}
+
+.valmynd{text-align: center;}
+
+.midja{
+    background: linear-gradient(yellow, white);
+
+}
+
+.senter{ width: 60%;
+    margin: 0 auto;}
+
+a:link{ color:black;}
+a:hover{ color: black}
+a:active{ color: black}
+a:visited{ color: black}
+
+.verkefni{text-align: right;}
+
+footer{display: grid;
+grid-template-columns: 1fr 1fr 1fr;}
+    

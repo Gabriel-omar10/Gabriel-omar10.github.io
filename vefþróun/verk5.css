@@ -1,0 +1,41 @@
+body{
+    font-family: 'Julius Sans One', sans-serif;
+    background: linear-gradient(lightblue,darkblue);
+    margin: 0px;
+    
+}
+
+.midja{
+    background: linear-gradient(yellow, white);
+}
+
+
+
+
+
+
+.dalkar3{display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 60%;
+    margin: 0 auto;}
+
+.dalkar2{display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    margin: 0 auto;}
+
+
+
+.kassi{;
+    background: white;
+
+}
+a:link{ color:black;}
+a:hover{ color: black}
+a:active{ color: black}
+a:visited{ color: black}
+
+
+a{color:tomato}
+
+.verkefni{text-align: right;}
