@@ -1,0 +1,66 @@
+html{scroll-behavior: smooth;}
+
+body{margin: 0px;
+    }
+
+
+p{color: white;
+margin:0%;}
+
+.s1{
+    height: 100vh;
+    background: linear-gradient(rgb(1, 1, 85),rgb(10, 10, 214));
+    font-family: 'Freckle Face', cursive;
+}
+
+.s2{height: 100vh;
+    background:rgb(235, 182, 85);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.bil{width: 60%;
+    margin: 0 auto;}
+
+.kassi2{background: white;
+padding:20px;
+font-size: 20px;}
+
+.header{font-size: 60px;
+text-align: center;
+}
+.stærð{font-size: 20px;}
+
+
+.kula{border-radius: 100%;
+    justify-content: center;
+    text-align: center;
+    border:solid;
+    border-width: 0px;
+    height: 90vh;
+    width: 90vh;
+    margin-left: 320px;
+    background: radial-gradient(blue, cyan,blue,blue);
+    display:flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    
+    
+}
+
+.box{
+    background: linear-gradient(cyan, blue);
+    width: 100px;
+    margin-left: 220px;
+    border: solid white 4px;
+    border-radius: 20%;
+    
+
+}
+.big{font-size: 100px;
+text-align: center;
+font-family: 'Freckle Face', cursive;
+background:rgb(235, 182, 85);}
