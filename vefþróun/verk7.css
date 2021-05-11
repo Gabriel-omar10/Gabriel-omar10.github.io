@@ -1,0 +1,130 @@
+html{scroll-behavior: smooth;}
+body{margin: auto 0px;}
+
+/* phone*/
+@media screen and (min-width: 10px){
+
+    .gridwrapper{display: grid;
+        grid-template-rows:
+        "mh mh mh mh mh"
+        "vm vm vm vm vm"
+        "te te te te te"
+        "my my my my my"
+        "vi vi vi vi vi"
+        "hl hl hl hl hl";
+    }
+
+
+
+
+
+}
+/*---------------------*/
+
+
+
+
+/*tablet*/
+@media screen and (min-width: 600px){ 
+    .gridwrapper{
+        display: grid;
+        grid-template-rows: 
+        "mh mh mh mh mh"
+        "vm vm vm vm vm"
+        "te te te te te"
+        "my my my my my"
+        "vi vi vi vi vi"
+        "hl hl hl hl hl";
+    }
+
+
+
+
+
+
+
+}
+/*--------------------------------*/
+
+/*desktop*/
+@media screen and (min-width: 900px){
+
+    .bil{width: 60%;
+        margin: 0 auto;}
+    .gridwrapper{
+        display: grid;
+        grid-template-areas: 
+        "mh mh mh mh mh"
+        "vm vm vm vm vm"
+        "te te te te te"
+        "my my my my my"
+        "vi vi vi hl hl";
+    }
+    
+
+
+
+
+
+}
+/*----------------------*/
+
+
+.midjuhaus{ grid-area: mh;
+    text-align: center;
+    font-size: 36px;
+    background: linear-gradient(cyan, lime);
+    color: black;
+    padding: 2px;
+    font-family: 'Marck Script', cursive;
+}
+
+.pila{
+    position:fixed;
+    right: 600px;
+    bottom: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 4px solid cornflowerblue;
+    background:linear-gradient(cyan, lime);
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.valmynd{ grid-area: vm;
+text-align: center;
+font-size: 24px;}
+
+a:link{ color:black;}
+a:hover{ color: black}
+a:active{ color: black}
+a:visited{ color: black}
+a{text-decoration: none;}
+
+
+
+.bak{
+    background: cornflowerblue;
+}
+
+
+
+.myndir{grid-area: my;
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;}
+
+.vid{ grid-area: vi;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hljod{grid-area: hl;}
+
+.texti{
+    grid-area: te;
+}
